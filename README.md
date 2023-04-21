@@ -28,5 +28,5 @@ Ejercicios en:
 
 [<img src="https://avatars.githubusercontent.com/u/111830259?v=4" width=100><br><sub>Lorena Rodríguez</sub>](https://github.com/Marialrodriguez1991)
 
-[<img src="https://avatars.githubusercontent.com/u/77170481?v=4" width=100><br><sub>Yamila Carlucci</sub>](https://github.com/YamiCarlucci)|
+[<img src="https://avatars.githubusercontent.com/u/77170481?v=4" width=100><br><sub>Yamila Carlucci</sub>](https://github.com/YamiCarlucci)
 
