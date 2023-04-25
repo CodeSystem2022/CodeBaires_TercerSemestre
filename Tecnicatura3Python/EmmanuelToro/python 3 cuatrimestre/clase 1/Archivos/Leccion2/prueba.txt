@@ -1,0 +1,13 @@
+Programos con diferentes tipos de archivos, ahora en txt.
+Los acentos son importantes para las palablas
+como por ejemplo: acción, ejecución y producción
+las letras son:
+ r read leer, 
+ a append anexa, 
+ w white escribe, 
+ x crea un archivo
+ t esta es para texto o text, 
+ b archivo binarios, 
+ w+ lee y escribir, 
+ r+ y w+ son iguales 
+Con esto terminamos
