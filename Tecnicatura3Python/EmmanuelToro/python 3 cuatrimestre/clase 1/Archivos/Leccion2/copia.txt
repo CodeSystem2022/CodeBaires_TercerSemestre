@@ -1,0 +1,12 @@
+como por ejemplo: acción, ejecución y producción
+Las letras son:
+r read,
+a append,
+w write,
+x create
+
+t text,
+b binary,
+w+ read and write,
+r+ read and write
+Con esto terminamos
