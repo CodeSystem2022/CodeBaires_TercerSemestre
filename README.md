@@ -14,7 +14,7 @@ Ejercicios en:
 
 #Team: 
 
-| Rosalia Lotierzo  | Marina Falcón |Emmanuel Toro |Emmanuel Toro |
+| Rosalia Lotierzo  | Marina Falcón |Emmanuel Toro |Maia Strusiat |
 | ------------- | ------------- | ------------- |------------- |
 | [<img src="https://avatars.githubusercontent.com/u/84238521?v=4" width=100><br><sub>Rosalía Lotierzo</sub>](https://github.com/Ro07-r) | [<img src="https://avatars.githubusercontent.com/u/112595796?v=4" width=100><br><sub>Marina Falcón</sub>](https://github.com/marinafal)  |[<img src="https://avatars.githubusercontent.com/u/111504496?v=4" width=100><br><sub>Emmanuel Toro</sub>](https://github.com/Emmanueltoro28)  |[<img src="https://avatars.githubusercontent.com/u/112667066?v=4" width=100><br><sub>Maia Strusiat</sub>](https://github.com/MaiaStrusiat)  |
 | Matías Quispe  | Deisy Ortega |Lorena Rodríguez |Yamila Carlucci |
