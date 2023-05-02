@@ -51,7 +51,7 @@ Las columnas tendrán los siguientes estados:
 
 :stop_sign: BLOCKED: Aquellas tareas que están bloqueadas
 
-:thumbsup: DONE: Las tareas finalizada
+:thumbsup: DONE: Las tareas finalizadas
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
