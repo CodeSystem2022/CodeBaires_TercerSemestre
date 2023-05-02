@@ -65,7 +65,7 @@ Las ramas serán nombradas con el nombre de cada issue. Ej: JAVA-Leccion02-Argum
 
 El nombre del issue se genera con la siguiente nomenclatura:
 
-{NOMBRE_DE_LENGUAJE]-[Nombre_de_lección}_{Nombre_de_proyecto]
+{NOMBRE_DE_LENGUAJE]-[Nombre_de_lección}-{Nombre_de_proyecto]
 
 Cada issue tiene asignado:
 - Título (De acuerdo a la nomenclatura antes descrita)
