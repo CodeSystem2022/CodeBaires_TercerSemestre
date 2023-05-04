@@ -29,9 +29,9 @@ Ejercicios en:
 
 Se detalla los Scrum Master asignados para cada Sprint
 
-| SPRINT  | SCRUM MASTER |
-| ------------- | ------------- |
-| :computer: Sprint_1  | Yamila Carlucci  |
+| SPRINT  | SCRUM MASTER | RELEASE LINK
+| ------------- | ------------- | -------------
+| :computer: Sprint_1  | Yamila Carlucci  |[Release_Sprint1](https://github.com/CodeSystem2022/CodeBaires_TercerSemestre/releases/tag/Sprint_1)
 | :computer: Sprint_2  |  Rosalía Lotierzo |
 | :computer: Sprint_3  |  Sin asignar |
 | :computer: Sprint_4  |  Sin asignar |
