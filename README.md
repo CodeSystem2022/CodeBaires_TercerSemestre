@@ -75,7 +75,7 @@ El nombre del issue se genera con la siguiente nomenclatura:
 Cada issue tiene asignado:
 - Título (De acuerdo a la nomenclatura antes descrita)
 - Milestone (Nombre del Sprint)
-- Label (Lenguaje al que pertenece)
+- Label (Lenguaje al que pertenece - Materia correspondiente)
 - Asignee (Persona encargada de resolver el issue)
 - Descripción (Una breve descripción de la actividad a realizar)
 - Status (Estado en el que se encuentra la actividad)
