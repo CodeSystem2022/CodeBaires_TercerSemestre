@@ -43,7 +43,7 @@ Se detalla los Scrum Master asignados para cada Sprint
 
 # Metodología de trabajo
 
-Utilizamos al metodología de trabajo Scrum, nos manejaremos con un tablero de trabajo que tendrá distintas columnas por estado.
+Utilizamos al metodología de trabajo mixta entre Scrum y Kanban, nos manejaremos con un tablero de trabajo que tendrá distintas columnas por estado.
 En nuestro caso el Sprint durará solo una semana para que todos los integrantes puedan desarrollar el trabajo de Scrum Master.
 
 Las columnas tendrán los siguientes estados:
