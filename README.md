@@ -43,7 +43,7 @@ Se detalla los Scrum Master asignados para cada Sprint
 
 # Metodología de trabajo
 
-Utilizamos al metodología de trabajo Scrum, nos manejaremos con un tablero de trabajo que tendrá distintas columnas por estado.
+Utilizamos al metodología de trabajo mixta entre Scrum y Kanban, nos manejaremos con un tablero de trabajo que tendrá distintas columnas por estado.
 En nuestro caso el Sprint durará solo una semana para que todos los integrantes puedan desarrollar el trabajo de Scrum Master.
 
 Las columnas tendrán los siguientes estados:
@@ -75,7 +75,7 @@ El nombre del issue se genera con la siguiente nomenclatura:
 Cada issue tiene asignado:
 - Título (De acuerdo a la nomenclatura antes descrita)
 - Milestone (Nombre del Sprint)
-- Label (Lenguaje al que pertenece)
+- Label (Lenguaje al que pertenece - Materia correspondiente)
 - Asignee (Persona encargada de resolver el issue)
 - Descripción (Una breve descripción de la actividad a realizar)
 - Status (Estado en el que se encuentra la actividad)
