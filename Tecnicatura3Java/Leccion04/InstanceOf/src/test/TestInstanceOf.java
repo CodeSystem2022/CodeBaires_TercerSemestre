@@ -10,20 +10,23 @@ public class TestInstanceOf {
         determinarTipo(empleado1);
 
         empleado1 = new Gerente("JosÃ©", 5000, "Sistemas");
-        determinarTipo(empleado1);
+        //determinarTipo(empleado1);
 
     }
 
     public static void determinarTipo(Empleado empleado) {
         if (empleado instanceof Gerente) {
             System.out.println("Es de tipo Gerente");
-            Gerente gerente = (Gerente) empleado;
-            //((Gerente) empleado).getDepartamento();
+            //((Gerente) empleado).getDepartamento(); // 1er forma de hacer la convercion
+            //System.out.println("gerente = "+empleado);
+            
+            Gerente gerente = (Gerente) empleado; // 2da forma de hacer la convercion
+            gerente.getDepatamento();
             System.out.println("Gerente = " + gerente.getDepartamento());
 
         } else if (empleado instanceof Empleado) {
             System.out.println("Es de tipo Empleado");
-        } else if (empleado instanceof Object) {
+        } else if (empleado instanceof O    bject) {
             System.out.println("Es de tipo Object");
         }
     }
