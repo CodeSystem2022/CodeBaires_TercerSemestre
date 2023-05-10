@@ -7,10 +7,10 @@ public class TestInstanceOf {
     public static void main(String[] args) {
 
         Empleado empleado1 = new Empleado("Juan", 10000);
-        determinarTipo(empleado1);
+        //determinarTipo(empleado1);
 
         empleado1 = new Gerente("JosÃ©", 5000, "Sistemas");
-        //determinarTipo(empleado1);
+        determinarTipo(empleado1);
 
     }
 
