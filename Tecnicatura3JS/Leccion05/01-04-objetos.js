@@ -63,3 +63,24 @@ console.log("Número 4: Utilizaremos el método JSON.stringify");
 let  personaString = JSON.stringify(persona);
 console.log(persona);
 
+//Uso de call
+let persona4 = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+': ' + this.nombre + ' '+ this.apellido+ ' '+telefono;
+        //return this.nombre+' '+this.apellido;
+    }
+}
+
+let persona5 = {
+    nombre: 'Carlos',
+    apellido: 'Lara'
+}
+
+console.log(persona4.nombreCompleto2('Lic.', '5556554654657'));
+console.log(persona4.nombreCompleto2.call(persona5, 'Ing. ', '4564566468789'));
+
+//Método Apply
+let arreglo = ['Ing ', '456465789123615657'];
+console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
