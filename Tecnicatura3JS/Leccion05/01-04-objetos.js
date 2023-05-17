@@ -63,6 +63,13 @@ console.log("Número 4: Utilizaremos el método JSON.stringify");
 let  personaString = JSON.stringify(persona);
 console.log(persona);
 
+//uso de protitype
+Persona3.prototype.telefono = '256487961';
+console.log(padre);
+console.log(madre.telefono);
+madre.telefono= '654656154';
+console.log(madre.telefono);
+
 //Uso de call
 let persona4 = {
     nombre: 'Juan',
