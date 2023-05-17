@@ -17,7 +17,7 @@ public abstract class FiguraGeometrica { // public class FiguraGeometrica { NOS 
     public abstract void dibujar(); // Lo trabajamos de esta manera pq es un metodo abstracto, no usamos las llaves.
     
     
-    //Agregamos gett and setter de tipo figura
+    //Agregamos getter and setter de tipo figura
     public String getTipoFigura() {
         return tipoFigura;
     }
