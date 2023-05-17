@@ -8,8 +8,18 @@ let persona = {
     apellido: 'Gil',
     email:'cgil@gmail.com',
     edad: 30,
+    idioma: 'ES',
+    get lan(){ //agregamos el metodo get
+        return this.idioma.toUpperCase(); // toUpperCase :Convierte las minusculas en mayusculas
+    },
+    set lang(lang){ //agregamos metodo set, para q Idioma pueda ser modificado
+        this.idioma = lang.toUpperCase();
+    },
     nombreCompleto: function(){ //método o función en JavaScript
         return this.nombre+' '+this.apellido;
+    },
+    get nombreEdad(){ //  metodo get de edad
+        return 'El nombre es: ' +this.nombre+' edad: '+this.edad;
     }
 }
 
@@ -63,6 +73,37 @@ console.log("Número 4: Utilizaremos el método JSON.stringify");
 let  personaString = JSON.stringify(persona);
 console.log(persona);
 
+//Utilizamos el metodo get
+console.log('Comenzamos a utilizar el metodo get');
+console.log(persona.nombreEdad); 
+
+//Utilizamos el metodo get y set
+console.log('Comenzamos con el metodo get y set para idiomas');
+persona.lang = 'en';
+console.log(persona.idioma);
+
+//Constructores de objetos
+function Persona3(nombre, apellido, email){ //Se puede preasignar aquí: nombre = 'Luis'
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email; 
+    
+    this.nombreCompleto = function(){ // creamos un metodo dentro del metodo constructor
+        return this.nombre+' '+this.apellido;
+    }
+}
+
+//Cada vez que utilizamos 'new' se crea un nuevo objeto del mismo tipo
+let padre = new Persona3('Leo', 'Lopez', 'lopezleo@mail.com'); //Objeto 1
+padre.nombre = 'Luis'; // modificamos el objeto padre.nombre
+console.log(padre); 
+console.log(padre.nombreCompleto()); // Utilizamos la funcion
+
+let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com'); //Objeto 2
+console.log(madre);
+console.log(madre.nombreCompleto()); // asi agregamos metodos al constructor del objeto
+
+
 //uso de protitype
 Persona3.prototype.telefono = '256487961';
 console.log(padre);
@@ -92,15 +133,3 @@ console.log(persona4.nombreCompleto2.call(persona5, 'Ing. ', '4564566468789'));
 let arreglo = ['Ing ', '456465789123615657'];
 console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
 
-//Constructores de objetos
-function Persona3(nombre, apellido, email){ //Se puede preasignar aquí: nombre = 'Luis'
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.email = email; 
-}
-//Cada vez que utilizamos 'new' se crea un nuevo objeto del mismo tipo
-let padre = new Persona3('Leo', 'Lopez', 'lopezleo@mail.com'); //Objeto 1
-console.log(padre);
-
-let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com'); //Objeto 2
-console.log(madre);
