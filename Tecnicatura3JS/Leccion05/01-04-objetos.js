@@ -91,3 +91,16 @@ console.log(persona4.nombreCompleto2.call(persona5, 'Ing. ', '4564566468789'));
 //Método Apply
 let arreglo = ['Ing ', '456465789123615657'];
 console.log(persona4.nombreCompleto2.apply(persona5, arreglo));
+
+//Constructores de objetos
+function Persona3(nombre, apellido, email){ //Se puede preasignar aquí: nombre = 'Luis'
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email; 
+}
+//Cada vez que utilizamos 'new' se crea un nuevo objeto del mismo tipo
+let padre = new Persona3('Leo', 'Lopez', 'lopezleo@mail.com'); //Objeto 1
+console.log(padre);
+
+let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com'); //Objeto 2
+console.log(madre);
