@@ -63,3 +63,62 @@ console.log("Número 4: Utilizaremos el método JSON.stringify");
 let  personaString = JSON.stringify(persona);
 console.log(persona);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Diferentes formas de crear objetos
+//caso numero 1
+let miObjeto = new Objet(); //Esta es una opcion formal
+// caso numero 2
+let miObjeto2 = {}; //Esta opcion es breve y recomendada
+
+//Caso String 1
+let miCadena1 = new String('Hola'); //sintaxis formal
+//caso String 2 
+let miCadena2 = 'Hola'; //Esta es la sintaxis simplificada y recomendada
+
+
+//caso con numeros 1
+Let miNumero = new Number(1); //Es formal no recomendable
+//caso con numeros 2
+let miNumero2 = 1; //sintaxis recomendada
+
+//caso boolean 1
+let miBoolean1 = new Boolean(false); //formal
+//caso boolean 2
+let miBoolean2 = false; //sintaxis recomendada
+
+//caso arreglos 1
+let miArreglo1 = new Array(); //formal
+//caso arreglo 2
+let miArreglo2 = []; // sintaxis recomendable
+
+//caso funcion 1
+let miFuncion1 = new function(); //todo despues de new es considerado objeto
+//caso funcion 2 
+let miFuncion2 = funcion(){}; //notacion simplificada y reconmendada
