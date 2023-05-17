@@ -17,8 +17,8 @@ public class Rectangulo extends FiguraGeometrica{ //public class Rectangulo exte
     
     @Override
     public void dibujar(){ //Implementando el metodo
-        System.out.println("Se implime un : "+this.g);
+        System.out.println("Se imprime un : "+this.getClass().getSimpleName());
     }
     
 } 
-CONTINUAR VIDEO 5.8
+
