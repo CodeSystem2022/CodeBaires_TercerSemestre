@@ -1,4 +1,4 @@
-    
+//let persona3 = new Persona('Carla', 'Ponce');// NO SE PUEDE HACER: Persona is not defined. 
 
 class Persona{
 
@@ -14,8 +14,8 @@ class Persona{
     set nombre(nombre){
         this._nombre=nombre;
     }
-
-    get apellido(){
+   //  Cramos el metodo get y set para apellido 
+    get apellido(){ 
         return this._apellido;
     }
 
