@@ -38,7 +38,7 @@ Se detalla los Scrum Master asignados para cada Sprint
 | :computer: Sprint_5  | Marina Falcón |
 | :computer: Sprint_6  |  Maia Strusiat |
 | :computer: Sprint_7  |  Lorena Rodríguez |
-| :computer: Sprint_8  |  Sin asignar |
+| :computer: Sprint_8  |  Deisy Ortega |
 
 
 # Metodología de trabajo
