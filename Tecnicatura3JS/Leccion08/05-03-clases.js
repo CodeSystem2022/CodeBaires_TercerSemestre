@@ -2,6 +2,9 @@
 
 class Persona{ //Clase padre
 
+    static contadorObjetosPersona = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
+    email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
+
     constructor(nombre, apellido){      //Creo constructor y paso como parametros ambos atributos: nombre y apellido
         this._nombre = nombre;          // escribo _nombre, _apellido para diferenciar el ATRIBUTO o PROPERTY(propiedad)
         this._apellido = apellido;      // del metodo get y set que luego creare, en javascript no pueden llevar el mismo nombre (como en java)
@@ -14,7 +17,7 @@ class Persona{ //Clase padre
     set nombre(nombre){
         this._nombre=nombre;
     }
-   //  Cramos el metodo get y set para apellido
+   //  Creamos el metodo get y set para apellido
     get apellido(){
         return this._apellido;
     }
@@ -94,3 +97,9 @@ Persona.saludar2(persona1);
 
 Empleado.saludar();
 Empleado.saludar2(empleado1);
+
+
+//Atributo no estatico puedo acceder desde el objeto, tanto de la clase padre como hija
+console.log(persona1.email);
+console.log(empleado1.email);
+console.log(Persona.email);   //NO se puede acceder directamente desde la clase
