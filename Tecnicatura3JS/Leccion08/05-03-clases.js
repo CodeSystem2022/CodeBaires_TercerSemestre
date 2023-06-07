@@ -2,12 +2,16 @@
 
 class Persona{ //Clase padre
 
+    static contadorObjetosPersona = 0 ;
+
     static contadorObjetosPersona = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
     email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
 
     constructor(nombre, apellido){      //Creo constructor y paso como parametros ambos atributos: nombre y apellido
         this._nombre = nombre;          // escribo _nombre, _apellido para diferenciar el ATRIBUTO o PROPERTY(propiedad)
         this._apellido = apellido;      // del metodo get y set que luego creare, en javascript no pueden llevar el mismo nombre (como en java)
+        Persona.contadorObjetosPersona++;
+        console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);
     }
 
     get nombre(){
@@ -103,3 +107,7 @@ Empleado.saludar2(empleado1);
 console.log(persona1.email);
 console.log(empleado1.email);
 console.log(Persona.email);   //NO se puede acceder directamente desde la clase
+
+//console.log(persona1.contadorObjetosPersona); undefined
+console.log(Persona.contadorObjetosPersona); 5
+console.log(Empleado.contadorObjetosPersona); 5
