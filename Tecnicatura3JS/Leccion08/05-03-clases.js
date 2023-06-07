@@ -5,11 +5,22 @@ class Persona{ //Clase padre
     static contadorObjetosPersona = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
     email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
 
+    static get MAX_OBJ(){//Etste es un metodo que va a simular una constante
+        return 5;
+    }
     constructor(nombre, apellido){      //Creo constructor y paso como parametros ambos atributos: nombre y apellido
         this._nombre = nombre;          // escribo _nombre, _apellido para diferenciar el ATRIBUTO o PROPERTY(propiedad)
         this._apellido = apellido;      // del metodo get y set que luego creare, en javascript no pueden llevar el mismo nombre (como en java)
+
         Persona.contadorObjetosPersona++;
         console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);
+        if(Persona.contadorPersonas < Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersonas;
+        }
+        else{
+            console.log('Se ha superado el maximo de objetos permitidos');
+        }
+
     }
 
     get nombre(){
@@ -109,3 +120,14 @@ console.log(Persona.email);   //NO se puede acceder directamente desde la clase
 //console.log(persona1.contadorObjetosPersona); undefined
 console.log(Persona.contadorObjetosPersona); 5
 console.log(Empleado.contadorObjetosPersona); 5
+
+//Creacion de constantes estaticas
+console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ = 10;// no se puede modificar ni alterar
+console.log(Persona.MAX_OBJ);
+
+let persona4 = new Persona('Franco', 'Diaz');
+console.log(persona4.toString());
+let persona5= new Persona('Liliana', 'Paz');
+console.log(persona5.toString());
+
