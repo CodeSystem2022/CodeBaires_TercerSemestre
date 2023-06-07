@@ -2,8 +2,6 @@
 
 class Persona{ //Clase padre
 
-    static contadorObjetosPersona = 0 ;
-
     static contadorObjetosPersona = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
     email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
 
