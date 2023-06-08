@@ -1,2 +1,0 @@
-manejoexcepciones1.ManejoExcepciones1
-manejoexcepciones1.ManejoExcepciones_1

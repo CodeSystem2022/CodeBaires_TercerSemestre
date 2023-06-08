@@ -2,8 +2,8 @@
 
 class Persona{ //Clase padre
 
-    static contadorObjetosPersona = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
-    email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
+    static contadorPersonas = 0;  //Atributo Estatico (se relaciona con la CLASE no con el objeto)
+//    email = 'Valor default email';      // Atributo NO Estatico (se relaciona con el objeto)
 
     static get MAX_OBJ(){//Etste es un metodo que va a simular una constante
         return 5;
@@ -12,8 +12,9 @@ class Persona{ //Clase padre
         this._nombre = nombre;          // escribo _nombre, _apellido para diferenciar el ATRIBUTO o PROPERTY(propiedad)
         this._apellido = apellido;      // del metodo get y set que luego creare, en javascript no pueden llevar el mismo nombre (como en java)
 
-        Persona.contadorObjetosPersona++;
-        console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);
+        this.idPersona = ++Persona.contadorPersonas; //8.4.1
+        
+//        console.log('Se incrementa el contador: '+Persona.contadorObjetosPersona);
         if(Persona.contadorPersonas < Persona.MAX_OBJ){
             this.idPersona = ++Persona.contadorPersonas;
         }
@@ -74,7 +75,7 @@ class Empleado extends Persona{// Clase hija
 
     //Sobreescritura
     nombreCompleto(){
-       return super.nombreCompleto()+', '+this._departamento;
+        return this.idPersona+' '+this._nombre+' '+this._apellido; //8.4.1
     }
 
 }
@@ -116,6 +117,16 @@ Empleado.saludar2(empleado1);
 console.log(persona1.email);
 console.log(empleado1.email);
 console.log(Persona.email);   //NO se puede acceder directamente desde la clase
+
+//8.4.1
+console.log(persona1.toString()); //8.4.1
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(Persona.contadorPersonas);
+
+let persona3 = new Persona('Carla','Pertosi'); //8.4.2
+console.log(persona3.toString());
+console.log(Persona.contadorPersonas);
 
 //console.log(persona1.contadorObjetosPersona); undefined
 console.log(Persona.contadorObjetosPersona); 5

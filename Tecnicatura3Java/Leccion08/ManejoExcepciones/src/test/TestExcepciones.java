@@ -19,6 +19,5 @@ public class TestExcepciones {
             System.out.println("Se reviso la division entre cero");//Esto es para que nuestro programa no termine de manera abrupta
         }
         System.out.println(" La variable de resultado tiene como valor: "+resultado);
-    }
-    
-}
+    }
+    

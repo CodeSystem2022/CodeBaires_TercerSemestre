@@ -1,2 +1,0 @@
-aritmetica.Aritmetica
-aritmetica.aritmetica
