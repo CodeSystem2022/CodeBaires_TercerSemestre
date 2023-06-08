@@ -2,7 +2,7 @@ import psycopg2 as bd
 from logger_base import log
 import sys
 
-class conexion: # Atributos
+class Conexion: # Atributos
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
     _PASSWORD = 'admin'
