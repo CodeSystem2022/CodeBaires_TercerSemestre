@@ -36,7 +36,7 @@ Se detalla los Scrum Master asignados para cada Sprint
 | :computer: Sprint_3  |  Matías Quispe | [Release_Sprint3](https://github.com/CodeSystem2022/CodeBaires_TercerSemestre/releases/tag/CodeBaires_Sprint_3)
 | :computer: Sprint_4  |  Emmanuel Toro | [Release_Sprint4](https://github.com/CodeSystem2022/CodeBaires_TercerSemestre/releases/tag/CodeBaires_Sprint_4)
 | :computer: Sprint_5  | Maia Strusiat | [Release_Sprint5](https://github.com/CodeSystem2022/CodeBaires_TercerSemestre/releases/tag/CodeBaires_Sprint_5)
-| :computer: Sprint_6  |  Lorena Rodríguez |
+| :computer: Sprint_6  |  Lorena Rodríguez |[Release_Sprint6](https://github.com/CodeSystem2022/CodeBaires_TercerSemestre/releases/tag/CodeBaires_Sprint_6)
 | :computer: Sprint_7  |  Marina Falcón |
 | :computer: Sprint_8  |  Deisy Ortega |
 
