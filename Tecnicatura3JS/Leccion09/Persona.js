@@ -37,12 +37,12 @@ class Persona{
         this._edad = edad;
     }
 
-    toString(){
+    ttoString(){
         return `
-        ${$this._idPersona} 
+        ${this._idPersona} 
         ${this._nombre} 
         ${this._apellido} 
         ${this._edad}`;
     }
-
+    
 }
