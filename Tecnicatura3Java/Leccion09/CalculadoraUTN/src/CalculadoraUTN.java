@@ -6,8 +6,7 @@ public class CalculadoraUTN {
         var resultado = operando1 + operando2;
         System.out.println("resultado = " + resultado);
         
-
-
+        
 
     }
 }

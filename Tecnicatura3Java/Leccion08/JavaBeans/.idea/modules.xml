@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CalculadoraUTN.iml" filepath="$PROJECT_DIR$/CalculadoraUTN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBeans.iml" filepath="$PROJECT_DIR$/JavaBeans.iml" />
     </modules>
   </component>
 </project>
