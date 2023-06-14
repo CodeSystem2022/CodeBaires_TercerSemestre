@@ -39,11 +39,22 @@ class PersonaDAO:
                 log.debug(f'Persona Insertada: {persona}')
                 return cursor.rowcount
 
+    @classmethod
+    def actualizar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.nombre, persona.apellido, persona.email)
+                cursor.execute(cls._ACTUALIZAR, valores)
+                log.debug(f'Persona Actualizada: {persona}')
+                return cursor.rowcount
+
 if __name__ == '__main__':
     # Insertar un registro
-    persona1 = Persona(nombre='Pedro', apellido='Romero', email='promero@mail.com')
+    persona1 = Persona(nombre='Homero', apellido='Ramos', email='homeror@mail.com')
     personas_insertadas = PersonaDAO.insertar(persona1)
     log.debug(f'Personas insertadas: {personas_insertadas}')
+
+    # Seleccionar objetos
     personas = PersonaDAO.seleccionar()
     for persona in personas:
         log.debug(persona)
