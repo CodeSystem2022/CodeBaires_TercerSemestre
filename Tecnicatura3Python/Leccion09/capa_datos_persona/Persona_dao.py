@@ -71,9 +71,9 @@ if __name__ == '__main__':
     # log.debug(f'Personas insertadas: {personas_insertadas}')
 
     # Eliminar un registro
-    persona1 = Persona(id_persona=8)
-    personas_eliminadas = PersonaDAO.eliminar(persona1)
-    log.debug(f'Personas eliminadas: {personas_eliminadas}')
+    # persona1 = Persona(id_persona=8)
+    # personas_eliminadas = PersonaDAO.eliminar(persona1)
+    # log.debug(f'Personas eliminadas: {personas_eliminadas}')
 
     # Seleccionar objetos
     personas = PersonaDAO.seleccionar()
