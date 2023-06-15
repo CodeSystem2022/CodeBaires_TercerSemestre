@@ -41,10 +41,10 @@ public class CalculadoraUTN {
 
     private static void ejecutarOperacion(int operacion, Scanner entrada){
         System.out.print("Ingrese el valor para el operando1: ");
-        var operando1 = Integer.parseInt(entrada.nextLine());
+        var operando1 = Double.parseDouble(entrada.nextLine());
         System.out.print("Ingrese el valor para el operando2: ");
-        var operando2 = Integer.parseInt(entrada.nextLine());
-        int resultado;
+        var operando2 = Double.parseDouble(entrada.nextLine());
+        double resultado;
         switch (operacion) {
             case 1 -> {//suma
                 resultado = operando1 + operando2;
