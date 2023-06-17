@@ -32,8 +32,13 @@ class Conexion: # Atributos
                                                       password=cls._PASSWORD,
                                                       port=cls._DB_PORT,
                                                       database=cls._DATABASE)
-            except:
-                pass
+                log.debug(f'Creación del pool exitosa: {cls._pool}')
+            except Exception as e:
+                log.error(f'Ocurrió un error al obtener el pool: {e}')
+                sys.exit()
+        else:
+            return cls._pool
+                
 
 if __name__ == '__main__':
    pass
