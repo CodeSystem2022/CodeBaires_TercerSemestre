@@ -1,0 +1,42 @@
+.github a {
+    text-decoration: none;
+    color: #6E6E6E;
+    font-size: larger;
+  }
+
+th {
+  background-color: #d9cee2;
+}
+
+tr {
+  background-color: #E6E6E6;
+}
+
+.divider {
+  height: 4px;
+  width: 110px;
+  background-color: #b0ebfa;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6E6E6E;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 3px 3px 3px #6E6E6E;  
+}
+
+form {
+  margin-left: 1100px;
+  color: #6E6E6E;
+}
+
+body {
+  background-image: url('https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-6.jpg');
+}
+
