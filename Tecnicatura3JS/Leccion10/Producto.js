@@ -32,3 +32,9 @@ class Producto {
 }// fin de la clase producto
 
 
+let producto1 = new producto('pantalon', 200);
+let producto2 = new producto('camisa', 150);
+console.log(producto1.toString());
+console,log(producto2.toString());
+
+
