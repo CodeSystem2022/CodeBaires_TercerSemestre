@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb2b5e98-c491-43ad-97db-2a90825d342f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Leccion05/ConversionObjetos/build/classes/domain/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Leccion05/ConversionObjetos/build/classes/domain/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Leccion09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Leccion10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListarPersonas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Persona.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +40,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/et5or/CodeBaires_TercerSemestre/Tecnicatura3Java/Leccion10/ListarPersonas/src"
+    "last_opened_file_path": "C:/Users/Marina/Documents/GitHub/CodeBaires_TercerSemestre/Tecnicatura3Java/Leccion10/ListarPersonas/src",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration type="Java Scratch" activateToolWindowBeforeRun="false">
+      <module name="ListarPersonas" />
+      <shortenClasspath name="NONE" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
