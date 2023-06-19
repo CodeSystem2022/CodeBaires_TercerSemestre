@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb2b5e98-c491-43ad-97db-2a90825d342f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Leccion05/ConversionObjetos/build/classes/domain/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Leccion05/ConversionObjetos/build/classes/domain/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Leccion09/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.java" afterDir="false" />
+    <list default="true" id="0982141f-2d11-4f26-9d36-b7199486736e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="2RPOBkA38yNXNaCDbulSpJkFEiy" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2RQLDfXhByxKEBqkQiTF2VaaNtC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,17 +28,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/et5or/CodeBaires_TercerSemestre/Tecnicatura3Java/Leccion10/ListarPersonas/src"
+    "git-widget-placeholder": "Fix__Carpeta__Java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb2b5e98-c491-43ad-97db-2a90825d342f" name="Changes" comment="" />
-      <created>1687148115948</created>
+      <changelist id="0982141f-2d11-4f26-9d36-b7199486736e" name="Changes" comment="" />
+      <created>1687177242049</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687148115948</updated>
+      <updated>1687177242049</updated>
     </task>
     <servers />
   </component>

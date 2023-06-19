@@ -1,6 +1,6 @@
 public class Persona {
-    private  int id;
-    private String  nombre;
+    private int id;
+    private String nombre;
     private String tel;
     private String email;
     private static int numeroPersonas = 0;
@@ -10,12 +10,17 @@ public class Persona {
         this.id = ++Persona.numeroPersonas;
     }
 
-    // constructor con parametros(sobrecarga de constructores)
-    public  Persona(String nombre, String tel, String email){
-        this();
+    //Constructor con parámetros (sobrecarga de constructores)
+    public Persona(String nombre, String tel, String email){
+        this(); //Por default lo hace automáticamente
         this.nombre = nombre;
         this.tel = tel;
         this.email = email;
 
+
+
     }
+
+
+
 }
