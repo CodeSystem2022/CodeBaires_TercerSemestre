@@ -1,26 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ListadoPersonasApp {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         // Definimos la lista fuera del ciclo while
-        List<Persona> persona = new ArrayList<>();
+        List<Persona> personas = new ArrayList<>();
 
         //Empezamos con el menu
         var salir = false;
         while (!salir){//salir = false
             mostrarMenu();//funcion
             try{
-                salir = ejecutarOperacion(entrada, Personas);
+                salir = ejecutarOperacion(entrada, personas);
             }catch (Exception e){
-                System.out.println("Ocurrio un error: "+e.getMessa());
+                System.out.println("Ocurrio un error: "+e.getMessage());
             }
-           
             System.out.println();
 
         }// Fin del ciclo While
 
-    }//Fin metodo menu
+    }//Fin metodo main
 
     private static void mostrarMenu(){
         // mostramos las opciones
@@ -34,12 +35,12 @@ public class ListadoPersonasApp {
         System.out.print("Digite una de las opciones: ");
     }// Fin de metodo mostrarMenu
     
-    private static boolean ejecutarOperacion(Scanner entrada, List<Persona> persona){
+    private static boolean ejecutarOperacion(Scanner entrada, List<Persona> personas){
         var opcion = Integer.parseInt(entrada.nextLine());
         var salir = false ;
         //Revisamos la opcion digitada a traves de un switch
         switch(opcion){
-            case 1 -> ´{//Agregar una persona a la lista
+            case 1 -> {//Agregar una persona a la lista
             System.out.print("Digite el nombre: ");
             var nombre = entrada.nextLine();
             System.out.print("Digite el telefono: ");
@@ -49,8 +50,8 @@ public class ListadoPersonasApp {
             // Creamos el objeto persona
             var persona = new Persona(nombre, tel, email);
             //Agregamos la persona a la lista 
-            Personas.add(persona);
-            System.out.println("La lista tine: "+Personas.size()+"elementos");
+            personas.add(persona);
+            System.out.println("La lista tine: "+personas.size()+"elementos");
            }//Fin caso 1
             case 2 -> {//Listar a las personas
                 System.out.println("Listado de personas: ");
