@@ -1,5 +1,3 @@
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ListadoPersonasApp {
@@ -60,6 +58,14 @@ public class ListadoPersonasApp {
                 //personas.forEach((persona) -> System.out.println(persona));
                 personas.forEach(System.out::println);
             }//Fin caso 2
-        }
+            case 3 ->{//salir del ciclo
+                System.out.println("Hasta pronto.....");
+                salir = true;
+
+            }//fin case 3
+            default -> System.out.println("Opcion incorrecta: "+opcion);
+
+        }//fin del switch
+        return salir;
     }//Fin del metodo ejecutarOperacion
 }//Fin de la clase ListadoPersonaApp
