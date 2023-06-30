@@ -55,12 +55,18 @@ class PersonaDAO:
                 valores = (persona.id_persona)
                 cursor.execute(cls._ELIMINAR, valores)
                 log.debug(f'Persona Eliminada: {persona}')
-                return cursor.rowcount
 
+
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall(
+
+        )
 if __name__ == '__main__':
 
     # Actualizar un registro
     # persona1 = Persona(1, 'Juan José', 'Pena', 'jjpena@mail.com')
+    #persona.liberarConecxion(conecxion1)
     # personas_actualizadas = PersonaDAO.actualizar(persona1)
     # log.debug(f'Personas actualizadas: {personas_actualizadas}')
 
