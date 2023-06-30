@@ -47,6 +47,36 @@ public class EstudianteDAO {
         return estudiantes;
     }//Fin método Listar
 
+     //Metodo por id -> fin  by id
+     public boolean_buscarEstudiantePor id(Estudiante estudiante){
+        PreparedStatement ps;
+        ResultSet rs;
+        conection con = getConnection();
+        String sql = "SELECT * FROM estudiante2022 WHERE idestudientes2022=?";
+        try{
+            ps = con.prepareStatement(sql);
+            ps.setInt(1, estudiante.getIdEstudiante());
+            rs = ps.executeQuery();
+            if(rs.next()){
+                estudiante.setNombre(rs.getString("nombre"));
+                estudiante.setApellido(rs.getString)("apellido"));
+                estudiante.setTelefono(rs.getString("telefono"));
+                estudiante.setEmail(rs.getString("email"));
+                return true; //Se encontro un registro
+            }// Fin if
+        } catch (Exception e){
+            System.out.println("Ocurrio un error al buscar estudiante: "+e.getMessage());
+        }//fin catch
+        finally {
+             try{
+                con.close();
+             } catch (Exception e){
+                System.out.println("Ocurrio un error al cerrar la conexion: "+e.getMessage());
+        }//fin catch
+     }//Fin finally     
+     return false;
+     }                      
+
     public static void main(String[] args) {
         //listar los estudiantes
         var estudianteDao = new EstudianteDAO();
