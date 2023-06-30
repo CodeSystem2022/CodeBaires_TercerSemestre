@@ -44,12 +44,18 @@ class Conexion: # Atributos
     def liberarConexion(cls, conexion):
         cls.obtenerPool().putconn(conexion)
         log.debug(f'Regresamos la conexion del pool: {conexion}')
-                
 
+    @classmethod
+    def cerrarConecxiones(cls):
+    cls.obtenerpool().closeall()
 if __name__ == '__main__':
    conexion1 = Conexion.obtenerConexion()
+   Conexion.liberarConexion(conexion1)
    conexion2 = Conexion.obtenerConexion()
+   Conexion.liberarConexion(conexion2)
    conexion3 = Conexion.obtenerConexion()
+   Conexion.liberarConexion(conexion3)
    conexion4 = Conexion.obtenerConexion()
    conexion5 = Conexion.obtenerConexion()
+   conexion6 =Conexion.obtenerConexion()
    
