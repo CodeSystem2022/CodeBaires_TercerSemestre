@@ -39,6 +39,11 @@ class Conexion: # Atributos
                 sys.exit()
         else:
             return cls._pool
+
+    @classmethod
+    def liberarConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexion del pool: {conexion}')
                 
 
 if __name__ == '__main__':
