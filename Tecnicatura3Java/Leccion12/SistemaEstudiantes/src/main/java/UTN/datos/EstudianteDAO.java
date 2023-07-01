@@ -39,7 +39,7 @@ public class EstudianteDAO {
         }
         finally {
             try{
-                CON.close();
+                con.close();
             } catch (Exception e){
                 System.out.println("Ocurrió un error al cerrar la conexión: "+e.getMessage());
             }
@@ -47,19 +47,19 @@ public class EstudianteDAO {
         return estudiantes;
     }//Fin método Listar
 
-     //Metodo por id -> fin  by id
-     public boolean_buscarEstudiantePor id(Estudiante estudiante){
+     //Metodo por id -> find  by id
+     public boolean buscarEstudiantePorid(Estudiante estudiante){
         PreparedStatement ps;
         ResultSet rs;
-        conection con = getConnection();
-        String sql = "SELECT * FROM estudiante2022 WHERE idestudientes2022=?";
+        Connection con = getConnection();
+        String sql = "SELECT * FROM estudiantes2022 WHERE idestudiantes2022=?";
         try{
             ps = con.prepareStatement(sql);
             ps.setInt(1, estudiante.getIdEstudiante());
             rs = ps.executeQuery();
             if(rs.next()){
                 estudiante.setNombre(rs.getString("nombre"));
-                estudiante.setApellido(rs.getString)("apellido"));
+                estudiante.setApellido(rs.getString("apellido"));
                 estudiante.setTelefono(rs.getString("telefono"));
                 estudiante.setEmail(rs.getString("email"));
                 return true; //Se encontro un registro
@@ -108,7 +108,7 @@ public class EstudianteDAO {
     public boolean modificarEstudiante(Estudiante estudiante){
         PreparedStatement ps;
         Connection con = getConnection();
-        String sql = "UPDATE estudiantes2022 SET nombre=?, apellido=?, telefono:?, email=? WHERE idestudiantes2022=?"
+        String sql = "UPDATE estudiantes2022 SET nombre=?, apellido=?, telefono:?, email=? WHERE idestudiantes2022=?";
         try{
             ps= con.prepareStatement(sql);
             ps.setString(1,estudiante.getNombre());
