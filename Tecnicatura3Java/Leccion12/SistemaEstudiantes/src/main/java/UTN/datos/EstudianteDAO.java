@@ -75,8 +75,36 @@ public class EstudianteDAO {
         }//fin catch
      }//Fin finally     
      return false;
-     }                      
+     }
 
+    
+     // Método agregarEstudiante() 
+    public boolean agregarEstudiante(Estudiante estudiante){
+        PreparedStatement ps; //creamos el objeto
+        Connection con = getConnection(); //ara generar conex
+        String sql = "INSERT INTO estudiantes2022 (nombre, apellido, telefono, email) VALUES (?, ?, ?, ?)";//La sentencia vamos a usar
+        try { // para establecer la consexion
+            ps = con.prepareStatement(sql);
+            ps.setString(1, estudiante.getNombre());
+            ps.setString(2, estudiante.getEmail());
+            ps.setString(3, estudiante.getTelefono());
+            ps.setString(4,estudiante.getEmail());
+            ps.execute(); //es solo para insertar
+            return true;
+        }catch (Exception e ){
+            System.out.println("Ocurrio un error al agregar el estudiante "+e.getMessage());
+        }//fin catch
+        finally {//cerramos la conexion
+            try {
+                con.close();
+            }catch (Exception e){
+                System.out.println("Error al cerrar la conexion: "+e.getMessage());
+            }//FIn carch
+        }//Fin finally
+        return false;
+    }//Fin metodo agregarEstudiante
+
+    
     public static void main(String[] args) {
         //listar los estudiantes
         var estudianteDao = new EstudianteDAO();
@@ -94,8 +122,6 @@ public class EstudianteDAO {
             System.out.println("estudiante encontrado "+estudiante1);
         else
             System.out.println("NO se encontro el estudiante: "+estudiante1.getIdEstudiante());
-
-
         
     }
 }
