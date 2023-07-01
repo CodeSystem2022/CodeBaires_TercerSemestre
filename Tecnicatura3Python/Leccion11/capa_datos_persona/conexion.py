@@ -47,7 +47,8 @@ class Conexion: # Atributos
 
     @classmethod
     def cerrarConecxiones(cls):
-    cls.obtenerpool().closeall()
+        cls.obtenerpool().closeall()
+
 if __name__ == '__main__':
    conexion1 = Conexion.obtenerConexion()
    Conexion.liberarConexion(conexion1)
