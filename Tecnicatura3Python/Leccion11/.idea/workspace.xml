@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22a176cc-2e64-45dc-845f-c13b8eb8f66a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Leccion09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leccion09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capa_datos_persona/cursor_del_pool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capa_datos_persona/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/conexion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -31,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PC/CodeBaires_TercerSemestre/Tecnicatura3Python/Leccion11",
+    "last_opened_file_path": "C:/Users/et5or/CodeBaires_TercerSemestre/Tecnicatura3Python/Leccion11",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
